@@ -142,8 +142,11 @@
                     <a href="{{route('page', ['page' => 'Berita' ])}}" class="list-group-item w-100 hvr-sweep-to-right">
                         Berita
                     </a>
-                    <a href="{{route('page', ['page' => 'Galeri' ])}}" class="list-group-item w-100 hvr-sweep-to-right">
-                        Galeri
+                    <a href="{{route('page', ['page' => 'Blog' ])}}" class="list-group-item w-100 hvr-sweep-to-right">
+                        Blog
+                    </a>
+                    <a href="{{route('page', ['page' => 'Album Galeri' ])}}" class="list-group-item w-100 hvr-sweep-to-right">
+                        Album Galeri
                     </a>
                     <a href="{{route('page', ['page' => 'Kegiatan' ])}}" class="list-group-item w-100 hvr-sweep-to-right">
                         Kegiatan
