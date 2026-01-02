@@ -17,5 +17,5 @@
         <link rel="icon" type="image/x-icon" href="{{asset('images/icon.ico')}}" />
         <script async charset="utf-8" src="https://cdn.embedly.com/widgets/platform.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.min.js"></script>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/scss/styles.scss', 'resources/js/app.js'])
     </head>
