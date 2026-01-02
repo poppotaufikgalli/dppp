@@ -91,7 +91,7 @@
                         <div class="col-sm-10">
                             <div class="input-group">
                                 <input type="hidden" class="form-control form-control-sm" id="album_id" name="album_id" value="{{isset($data) ? $data->album_id : old('album_id') }}">
-                                <input type="text" class="form-control form-control-sm" id="album_name" name="album_name" value="{{isset($data) ? $data->album->judul : old('album_name') }}" disabled>
+                                <input type="text" class="form-control form-control-sm" id="album_name" name="album_name" value="{{isset($data) ? $data->album?->judul : old('album_name') }}" disabled>
                                 <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlbum">Cari Album</button>
                             </div>
                         </div>
