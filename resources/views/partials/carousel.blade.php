@@ -1,5 +1,5 @@
 @if(isset($banner) && $banner->count() > 0)
-<div class="min-vh-50">
+<div class="min-vh-md-50">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             @foreach($banner as $key => $value)

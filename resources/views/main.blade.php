@@ -11,34 +11,34 @@
                 <h4 class="fw-bold py-2 hvr-float-shadow">BIDANG</h4>
                 <p class="small">Bidang pada Dinas Pertanian, Pangan, dan Perikanan Kota Tanjungpinang memberikan pelayanan sesuai dengan tugas Pokok dan Fungsi Dinas</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
+            <div class="row row-cols-2 row-cols-md-4 mb-3 g-2 text-center">
                 <div class="col">
-                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow h-100">
-                        <img src="{{asset('storage/images/tani.jpg')}}" class="card-img" alt="Bidang Pertanian" style="height: 180px; object-fit: cover;">
+                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
+                        <img src="{{asset('storage/images/tani.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
                             <p class="color-accent">Bidang Pertanian</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow h-100">
-                        <img src="{{asset('storage/images/ternak.jpg')}}" class="card-img" alt="Bidang Pertanian" style="height: 180px; object-fit: cover;">
+                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
+                        <img src="{{asset('storage/images/ternak.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
                             <p class="color-accent">Bidang Peternakan, Kesehatan Hewan dan Kesehatan Masyarakat Veteriner</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow h-100">
-                        <img src="{{asset('storage/images/tahan.jpg')}}" class="card-img" alt="Bidang Pertanian" style="height: 180px; object-fit: cover;">
+                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
+                        <img src="{{asset('storage/images/tahan.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
                             <p class="color-accent">Bidang Ketahanan Pangan</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow h-100">
-                        <img src="{{asset('storage/images/ikan.webp')}}" class="card-img" alt="Bidang Pertanian" style="height: 180px; object-fit: cover;">
+                    <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
+                        <img src="{{asset('storage/images/ikan.webp')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
                             <p class="color-accent">Bidang Perikanan</p>
                         </div>
