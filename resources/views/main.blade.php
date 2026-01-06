@@ -16,7 +16,7 @@
                     <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
                         <img src="{{asset('storage/images/tani.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
-                            <p class="color-accent">Bidang Pertanian</p>
+                            <a href="{{url('/Halaman/bidang-pertanian')}}" class="stretched-link text-decoration-none"><p class="color-accent">Bidang Pertanian</p></a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                     <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
                         <img src="{{asset('storage/images/ternak.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
-                            <p class="color-accent">Bidang Peternakan, Kesehatan Hewan dan Kesehatan Masyarakat Veteriner</p>
+                            <a href="{{url('/Halaman/bidang-peternakan-kesehatan-hewan-dan-kesehatan-masyarakat-veteriner')}}" class="stretched-link text-decoration-none"><p class="color-accent">Bidang Peternakan, Kesehatan Hewan dan Kesehatan Masyarakat Veteriner</p></a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
                         <img src="{{asset('storage/images/tahan.jpg')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
-                            <p class="color-accent">Bidang Ketahanan Pangan</p>
+                            <a href="{{url('/Halaman/bidang-ketahanan-pangan')}}" class="stretched-link text-decoration-none"><p class="color-accent">Bidang Ketahanan Pangan</p></a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="card h-100 rounded-3 shadow-sm border-accent hvr-float-shadow">
                         <img src="{{asset('storage/images/ikan.webp')}}" class="card-img" alt="Bidang Pertanian">
                         <div class="card-body">
-                            <p class="color-accent">Bidang Perikanan</p>
+                            <a href="{{url('/Halaman/bidang-perikanan')}}" class="stretched-link text-decoration-none"><p class="color-accent">Bidang Perikanan</p></a>
                         </div>
                     </div>
                 </div>
