@@ -88,7 +88,7 @@
                 </a>
                 <!-- Dropdown - User Information -->
                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown" style="left: auto;">
-                    <a class="dropdown-item" href="{{route('profil')}}">
+                    <a class="dropdown-item" href="#">
                         <i class="bi bi-person-badge mr-2 text-gray-400"></i>
                         Profile
                     </a>
