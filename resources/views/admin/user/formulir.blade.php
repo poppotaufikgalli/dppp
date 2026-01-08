@@ -24,9 +24,9 @@
                         </div>
                     </div>
                     <div class="mb-2 row">
-                        <label for="nama" class="col-sm-2 col-form-label col-form-label-sm">Nama</label>
+                        <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Nama</label>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control form-control-sm" id="nama" name="nama" value="{{$data->nama ?? old('nama')}}">
+                            <input type="text" class="form-control form-control-sm" id="name" name="name" value="{{$data->name ?? old('name')}}">
                         </div>
                         <label for="nip" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
                         <div class="col-sm-4">
