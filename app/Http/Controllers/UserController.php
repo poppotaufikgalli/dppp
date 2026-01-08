@@ -55,7 +55,7 @@ class UserController extends Controller
         }
 
         $validator = Validator::make($reqData, [
-            'nama' => 'required|unique:users,nama',
+            'name' => 'required|unique:users,name',
             'username' => 'required|unique:users,username',
             'email' => 'required|unique:users,email',
             'gid' => 'required',
@@ -64,8 +64,8 @@ class UserController extends Controller
             'username.required' => 'Username tidak boleh kosong',
             'username.unique' => 'Username telah terdaftar',
 
-            'nama.required' => 'Nama Pengguna tidak boleh kosong',
-            'nama.unique' => 'Nama Pengguna telah terdaftar',
+            'name.required' => 'Nama Pengguna tidak boleh kosong',
+            'name.unique' => 'Nama Pengguna telah terdaftar',
 
             'email.required' => 'Email Pengguna tidak boleh kosong',
             'email.unique' => 'Email Pengguna telah terdaftar',
@@ -122,7 +122,7 @@ class UserController extends Controller
         }
 
         $validator = Validator::make($reqData, [
-            'nama' => 'required|unique:users,nama,'.$id,
+            'name' => 'required|unique:users,name,'.$id,
             'username' => 'required|unique:users,username,'.$id,
             'email' => 'required|unique:users,email,'.$id,
         ],[
@@ -184,9 +184,9 @@ class UserController extends Controller
         $data->update($reqData);
 
         if($request->admin == 0){
-            return redirect()->back()->with('success', 'Password '.$data->nama.' berhasil dirubah');    
+            return redirect()->back()->with('success', 'Password '.$data->name.' berhasil dirubah');    
         }else{
-            return redirect('user')->with('success', 'Password '.$data->nama.' berhasil dirubah');
+            return redirect('user')->with('success', 'Password '.$data->name.' berhasil dirubah');
         }
         
     }
