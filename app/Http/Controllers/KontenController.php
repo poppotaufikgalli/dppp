@@ -172,7 +172,7 @@ class KontenController extends Controller
     {
         //dd($request->all());
         $id = $request->id;
-        $reqData = $request->only('jns','judul','guid', 'guid_text', 'alamat', 'content_at', 'popup');
+        $reqData = $request->only('jns','judul','guid', 'guid_text', 'alamat', 'content_at', 'popup', 'album_id');
         $reqData['isi'] = in_array($reqData['jns'], ['l', 'sm']) ? $reqData['alamat'] : $request->input('editor');
 
         $reqData['isi'] = strip_tags($reqData['isi'], '<figure><oembed><img><p><h2><h4><strong><i><a><ul><ol><li><table><thead><tbody><tfoot><tr><th><td><blockquote>');
